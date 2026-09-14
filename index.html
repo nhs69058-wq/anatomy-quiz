@@ -467,7 +467,6 @@ function renderHome(){
 
   main.innerHTML = `
     <div class="level-note">현재 난이도: <b>${lv.label}</b> — ${lv.desc}. 정답률·오답노트는 난이도별로 따로 기록됩니다. 상단 하/중/상 버튼으로 언제든 바꿀 수 있습니다.</div>
-    <div class="level-note">모든 기록(오답노트·즐겨찾기·정답률)은 <b>지금 이 기기·브라우저</b>에만 저장됩니다. 다른 기기나 시크릿 모드로 열면 기록이 공유되지 않으니 참고해주세요.</div>
     ${accHtml}
     <div class="section-title">문제 풀기</div>
     <div class="menu-item" id="menuAll">
@@ -495,6 +494,7 @@ function renderHome(){
       <div class="body"><h3>즐겨찾기</h3><p>저장한 문항 · ${progress.favorites.length}개</p></div>
       <div class="chev">›</div>
     </div>
+    <div class="level-note" style="margin-top:22px;">모든 기록(오답노트·즐겨찾기·정답률)은 <b>지금 이 기기·브라우저</b>에만 저장됩니다. 다른 기기나 시크릿 모드로 열면 기록이 공유되지 않으니 참고해주세요.</div>
   `;
   document.getElementById('menuAll').onclick = ()=> startQuiz(shuffle(QUESTIONS), {title:"모든 문제 풀어보기", mode:"practice"});
   document.getElementById('menuPart').onclick = ()=>{ currentTab="part"; render(); };
