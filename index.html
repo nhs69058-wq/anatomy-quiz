@@ -1080,9 +1080,107 @@ const QUESTIONS = [
    ko:{q:"견관절에서 어깨밑근(견갑하근)이 담당하는 움직임은?", opts:["외회전","수평외전","외전","내회전"]},
    en:{q:"Which G.H movement does subscapularis perform?", opts:["External rotation","Horizontal abduction","Abduction","Internal rotation"]},
    a:3, ex:"견갑하근은 내회전에 작용합니다."},
+  {id:"q222", part:"동작-근육 협응",
+   ko:{q:"뻗기(Reaching) 동작에서 주로 협력하는 근육 조합은?", opts:["광배근(latissimus dorsi), 뒤섬유 삼각근(posterior deltoid), 소원근(teres minor), 극하근(infraspinatus)","광배근(latissimus dorsi), 능형근(rhomboids), 소흉근(pectoralis minor), 이두근(biceps brachii)","앞섬유 삼각근(anterior deltoid), 대흉근(pectoralis major), 승모근(trapezius), 전거근(serratus anterior)","뒤섬유 삼각근(posterior deltoid), 능형근(rhomboids), 소원근(teres minor), 상완삼두근(triceps brachii)"]},
+   en:{q:"Which muscle combination mainly cooperates in reaching?", opts:["Latissimus dorsi, Posterior deltoid, Teres minor, Infraspinatus","Latissimus dorsi, Rhomboids, Pectoralis minor, Biceps brachii","Anterior deltoid, Pectoralis major, Trapezius, Serratus anterior","Posterior deltoid, Rhomboids, Teres minor, Triceps brachii"]},
+   a:2, ex:"뻗기(Reaching): 앞섬유 삼각근, 대흉근, 승모근, 전거근(견갑골 전인)이 작용합니다."},
+  {id:"q223", part:"동작-근육 협응",
+   ko:{q:"뻗기(Reaching) 동작에서 반대작용을 하는 근육은?", opts:["광배근(latissimus dorsi), 뒤섬유 삼각근(posterior deltoid)","앞섬유 삼각근(anterior deltoid), 대흉근(pectoralis major)","승모근(trapezius), 전거근(serratus anterior)","상완삼두근(triceps brachii), 이두근(biceps brachii)"]},
+   en:{q:"Which muscles act in opposition during reaching?", opts:["Latissimus dorsi, Posterior deltoid","Anterior deltoid, Pectoralis major","Trapezius, Serratus anterior","Triceps brachii, Biceps brachii"]},
+   a:0, ex:"뻗기에서 광배근과 뒤섬유 삼각근은 반대작용을 합니다."},
+  {id:"q224", part:"동작-근육 협응",
+   ko:{q:"뻗기(Reaching)에서 견갑골 전인(protraction)을 담당하는 근육은?", opts:["능형근(rhomboids)","광배근(latissimus dorsi)","뒤섬유 삼각근(posterior deltoid)","전거근(serratus anterior)"]},
+   en:{q:"Which muscle produces scapular protraction in reaching?", opts:["Rhomboids","Latissimus dorsi","Posterior deltoid","Serratus anterior"]},
+   a:3, ex:"뻗기에서 전거근(serratus anterior)이 견갑골 전인을 담당합니다."},
+  {id:"q225", part:"동작-근육 협응",
+   ko:{q:"뻗기(Reaching) 동작에서 회전근개의 역할은?", opts:["뻗기 동작에는 관여하지 않는다","상완골두를 안정화시키며 필수적으로 협력한다","견갑골을 전인시킨다","반대작용을 하는 주동근이다"]},
+   en:{q:"What is the role of the rotator cuff in reaching?", opts:["It is not involved in reaching","It stabilizes the humeral head and cooperates as an essential element","It protracts the scapula","It is the agonist acting in opposition"]},
+   a:1, ex:"상완골두(위팔뼈 머리)를 안정화시키는 회전근개가 뻗기 동작에 필수적으로 협력합니다."},
+  {id:"q226", part:"동작-근육 협응",
+   ko:{q:"던지기(Throwing) 동작의 두 단계로 옳은 것은?", opts:["준비 단계, 회복 단계","가속 및 투구 단계(generating power), 감속 및 제거 단계(braking and control)","기반안정화 단계, 들어올리는 단계","뻗기 단계, 밀기 단계"]},
+   en:{q:"Which are the two phases of throwing?", opts:["Preparation phase, recovery phase","Acceleration/throwing phase (generating power), deceleration/follow-through phase (braking and control)","Base-stabilization phase, lifting phase","Reaching phase, pushing phase"]},
+   a:1, ex:"던지기는 가속 및 투구 단계(generating power)와 감속 및 제거 단계(braking and control)로 나뉩니다."},
+  {id:"q227", part:"동작-근육 협응",
+   ko:{q:"던지기(Throwing)의 가속 및 투구 단계(generating power)에서 힘을 만드는 근육은?", opts:["뒤섬유 삼각근(posterior deltoid), 소원근(teres minor), 능형근(rhomboids), 극하근(infraspinatus)","능형근(rhomboids), 승모근(trapezius), 전거근(serratus anterior), 소흉근(pectoralis minor)","소원근(teres minor), 극하근(infraspinatus), 뒤섬유 삼각근(posterior deltoid), 이두근(biceps brachii)","대흉근(pectoralis major), 광배근(latissimus dorsi), 앞섬유 삼각근(anterior deltoid), 상완삼두근(triceps brachii)"]},
+   en:{q:"Which muscles generate power in the acceleration phase of throwing?", opts:["Posterior deltoid, Teres minor, Rhomboids, Infraspinatus","Rhomboids, Trapezius, Serratus anterior, Pectoralis minor","Teres minor, Infraspinatus, Posterior deltoid, Biceps brachii","Pectoralis major, Latissimus dorsi, Anterior deltoid, Triceps brachii"]},
+   a:3, ex:"가속 및 투구 단계(generating power): 대흉근, 광배근, 앞섬유 삼각근, 삼두근."},
+  {id:"q228", part:"동작-근육 협응",
+   ko:{q:"던지기 가속 및 투구 단계에서 안정화 역할을 하는 구조는?", opts:["회전근개(rotator cuff)","대흉근(pectoralis major)","광배근(latissimus dorsi)","상완삼두근(triceps brachii)"]},
+   en:{q:"Which structure has the stabilizing role in the acceleration phase of throwing?", opts:["Rotator cuff","Pectoralis major","Latissimus dorsi","Triceps brachii"]},
+   a:0, ex:"가속 및 투구 단계에서 안정화 역할은 회전근개가 합니다."},
+  {id:"q229", part:"동작-근육 협응",
+   ko:{q:"던지기(Throwing)의 감속 및 제거 단계(braking and control)에 작용하는 근육은?", opts:["대흉근(pectoralis major), 광배근(latissimus dorsi), 앞섬유 삼각근(anterior deltoid), 상완삼두근(triceps brachii)","대흉근(pectoralis major), 앞섬유 삼각근(anterior deltoid), 상완삼두근(triceps brachii), 이두근(biceps brachii)","뒤섬유 삼각근(posterior deltoid), 소원근(teres minor), 능형근(rhomboids), 극하근(infraspinatus), 승모근(trapezius)","전거근(serratus anterior), 소흉근(pectoralis minor), 광배근(latissimus dorsi), 대흉근(pectoralis major)"]},
+   en:{q:"Which muscles act in the deceleration phase of throwing (braking and control)?", opts:["Pectoralis major, Latissimus dorsi, Anterior deltoid, Triceps brachii","Pectoralis major, Anterior deltoid, Triceps brachii, Biceps brachii","Posterior deltoid, Teres minor, Rhomboids, Infraspinatus, Trapezius","Serratus anterior, Pectoralis minor, Latissimus dorsi, Pectoralis major"]},
+   a:2, ex:"감속 및 제거 단계: 뒤섬유 삼각근, 소원근, 능형근, 극하근, 승모근이 신장성 수축으로 작용합니다."},
+  {id:"q230", part:"동작-근육 협응",
+   ko:{q:"던지기 감속 및 제거 단계에서 근육들의 수축 형태는?", opts:["단축성 수축(concentric)","등척성 수축(isometric)","신장성 수축(eccentric)","등속성 수축(isokinetic)"]},
+   en:{q:"What type of contraction do the muscles use in the deceleration phase of throwing?", opts:["Concentric contraction","Isometric contraction","Eccentric contraction","Isokinetic contraction"]},
+   a:2, ex:"감속 및 제거 단계(braking and control)의 근육들은 신장성 수축을 합니다. 외부 힘이 근육 힘보다 커서 근육이 길어지며 제동합니다."},
+  {id:"q231", part:"동작-근육 협응",
+   ko:{q:"던지기의 가속 단계와 감속 단계를 비교한 설명으로 옳은 것은?", opts:["가속은 대흉근·광배근 등으로 힘을 만들고, 감속은 뒤섬유 삼각근·소원근 등이 신장성 수축으로 제동한다","가속은 소원근·극하근, 감속은 대흉근·광배근이 담당한다","두 단계 모두 같은 근육이 단축성 수축을 한다","감속 단계에서는 근육이 작용하지 않는다"]},
+   en:{q:"Which comparison of the acceleration and deceleration phases of throwing is correct?", opts:["Acceleration generates power via pectoralis major, latissimus dorsi, etc.; deceleration is braking by posterior deltoid, teres minor, etc. in eccentric contraction","Acceleration is by teres minor and infraspinatus; deceleration by pectoralis major and latissimus dorsi","Both phases use the same muscles in concentric contraction","No muscles act in the deceleration phase"]},
+   a:0, ex:"가속: 대흉근·광배근·앞섬유 삼각근·삼두근으로 힘 생성 / 감속: 뒤섬유 삼각근·소원근·능형근·극하근·승모근이 신장성 수축으로 제동."},
+  {id:"q232", part:"동작-근육 협응",
+   ko:{q:"뒤섬유 삼각근, 소원근, 능형근, 극하근, 승모근이 신장성 수축으로 작용하는 던지기 단계는?", opts:["가속 및 투구 단계(generating power)","두 단계 모두 아니다","뻗기 단계","감속 및 제거 단계(braking and control)"]},
+   en:{q:"In which throwing phase do the posterior deltoid, teres minor, rhomboids, infraspinatus and trapezius act eccentrically?", opts:["Acceleration/throwing phase (generating power)","Neither phase","Reaching phase","Deceleration/follow-through phase (braking and control)"]},
+   a:3, ex:"감속 및 제거 단계(braking and control)입니다."},
+  {id:"q233", part:"동작-근육 협응",
+   ko:{q:"뻗기(Reaching)와 던지기 가속 및 투구 단계에 공통으로 나오는 근육 조합은?", opts:["능형근(rhomboids), 소원근(teres minor)","대흉근(pectoralis major), 앞섬유 삼각근(anterior deltoid)","소원근(teres minor), 극하근(infraspinatus)","뒤섬유 삼각근(posterior deltoid), 능형근(rhomboids)"]},
+   en:{q:"Which muscle pair appears in both reaching and the acceleration phase of throwing?", opts:["Rhomboids, Teres minor","Pectoralis major, Anterior deltoid","Teres minor, Infraspinatus","Posterior deltoid, Rhomboids"]},
+   a:1, ex:"대흉근과 앞섬유 삼각근은 뻗기와 던지기 가속 단계에 모두 나옵니다."},
+  {id:"q234", part:"동작-근육 협응",
+   ko:{q:"들기(Lifting)에서 기반안정화(scapular stabilization)로 견갑골 위치를 조절하는 근육은?", opts:["앞섬유 삼각근(anterior deltoid), 광배근(latissimus dorsi), 대흉근(pectoralis major)","능형근(rhomboids), 승모근(trapezius), 전거근(serratus anterior)","뒤섬유 삼각근(posterior deltoid), 소원근(teres minor), 극하근(infraspinatus)","상완삼두근(triceps brachii), 이두근(biceps brachii), 삼각근(deltoid)"]},
+   en:{q:"Which muscles adjust scapular position for base stabilization in lifting?", opts:["Anterior deltoid, Latissimus dorsi, Pectoralis major","Rhomboids, Trapezius, Serratus anterior","Posterior deltoid, Teres minor, Infraspinatus","Triceps brachii, Biceps brachii, Deltoid"]},
+   a:1, ex:"들기의 기반안정화(Scapular stabilization): 능형근, 승모근, 전거근이 견갑골 위치를 조절합니다."},
+  {id:"q235", part:"동작-근육 협응",
+   ko:{q:"들기(Lifting)에서 상완골을 움직여 들어올리는 힘(humerus movement)을 내는 근육은?", opts:["능형근(rhomboids), 승모근(trapezius), 전거근(serratus anterior)","소원근(teres minor), 극하근(infraspinatus)","소흉근(pectoralis minor), 전거근(serratus anterior), 승모근(trapezius)","삼각근(deltoid), 광배근(latissimus dorsi), 대흉근(pectoralis major), 이두근(biceps brachii)"]},
+   en:{q:"Which muscles produce the lifting force (humerus movement) in lifting?", opts:["Rhomboids, Trapezius, Serratus anterior","Teres minor, Infraspinatus","Pectoralis minor, Serratus anterior, Trapezius","Deltoid, Latissimus dorsi, Pectoralis major, Biceps brachii"]},
+   a:3, ex:"들어올리는 힘(humerus movement): 삼각근, 광배근, 대흉근, 이두근 등."},
+  {id:"q236", part:"동작-근육 협응",
+   ko:{q:"들기(Lifting) 동작에서 견갑골 위치를 조절하는 근육과 상완골을 움직이는 근육을 순서대로 옳게 짝지은 것은?", opts:["능형근·승모근·전거근 / 삼각근·광배근·대흉근·이두근","삼각근·광배근·대흉근·이두근 / 능형근·승모근·전거근","소원근·극하근 / 대흉근·광배근","소흉근·전거근 / 삼두근·이두근"]},
+   en:{q:"Which pair correctly names, in order, the muscles that position the scapula and those that move the humerus in lifting?", opts:["Rhomboids, trapezius, serratus anterior / deltoid, latissimus dorsi, pectoralis major, biceps","Deltoid, latissimus dorsi, pectoralis major, biceps / rhomboids, trapezius, serratus anterior","Teres minor, infraspinatus / pectoralis major, latissimus dorsi","Pectoralis minor, serratus anterior / triceps, biceps"]},
+   a:0, ex:"견갑골 위치 조절: 능형근·승모근·전거근 / 상완골 움직임: 삼각근·광배근·대흉근·이두근 등."},
+  {id:"q237", part:"동작-근육 협응",
+   ko:{q:"밀기(push-ups) 동작에서 안정화에 작용하는 근육은?", opts:["대흉근(pectoralis major), 앞섬유 삼각근(anterior deltoid), 상완삼두근(triceps brachii)","뒤섬유 삼각근(posterior deltoid), 소원근(teres minor), 극하근(infraspinatus)","승모근(trapezius), 능형근(rhomboids), 소흉근(pectoralis minor), 전거근(serratus anterior)","광배근(latissimus dorsi), 이두근(biceps brachii), 삼각근(deltoid)"]},
+   en:{q:"Which muscles provide stabilization in push-ups?", opts:["Pectoralis major, Anterior deltoid, Triceps brachii","Posterior deltoid, Teres minor, Infraspinatus","Trapezius, Rhomboids, Pectoralis minor, Serratus anterior","Latissimus dorsi, Biceps brachii, Deltoid"]},
+   a:2, ex:"밀기(push-ups) 안정화: 승모근, 능형근, 소흉근, 전거근."},
+  {id:"q238", part:"동작-근육 협응",
+   ko:{q:"밀기(push-ups) 동작의 주동근으로 옳은 것은?", opts:["승모근(trapezius), 능형근(rhomboids), 소흉근(pectoralis minor), 전거근(serratus anterior)","뒤섬유 삼각근(posterior deltoid), 소원근(teres minor), 극하근(infraspinatus)","대흉근(pectoralis major), 앞섬유 삼각근(anterior deltoid), 상완삼두근(triceps brachii)","광배근(latissimus dorsi), 능형근(rhomboids), 이두근(biceps brachii)"]},
+   en:{q:"Which muscles are the agonists in push-ups?", opts:["Trapezius, Rhomboids, Pectoralis minor, Serratus anterior","Posterior deltoid, Teres minor, Infraspinatus","Pectoralis major, Anterior deltoid, Triceps brachii","Latissimus dorsi, Rhomboids, Biceps brachii"]},
+   a:2, ex:"밀기(push-ups) 주동근: 대흉근, 앞섬유 삼각근, 상완삼두근."},
+  {id:"q239", part:"동작-근육 협응",
+   ko:{q:"밀기(push-ups)에서 안정화 근육과 주동근을 비교한 설명으로 옳은 것은?", opts:["안정화는 승모근·능형근·소흉근·전거근, 주동근은 대흉근·앞섬유 삼각근·상완삼두근","안정화는 대흉근·삼두근, 주동근은 승모근·전거근","안정화는 소원근·극하근, 주동근은 광배근·이두근","안정화 근육 없이 주동근만 작용한다"]},
+   en:{q:"Which comparison of stabilizers and agonists in push-ups is correct?", opts:["Stabilizers: trapezius, rhomboids, pectoralis minor, serratus anterior; agonists: pectoralis major, anterior deltoid, triceps brachii","Stabilizers: pectoralis major, triceps; agonists: trapezius, serratus anterior","Stabilizers: teres minor, infraspinatus; agonists: latissimus dorsi, biceps","Only agonists act, with no stabilizers"]},
+   a:0, ex:"안정화: 승모근·능형근·소흉근·전거근 / 주동근: 대흉근·앞섬유 삼각근·상완삼두근."},
+  {id:"q240", part:"동작-근육 협응",
+   ko:{q:"밀기(push-ups)에서 주동근이 아니라 안정화 근육으로 제시된 것은?", opts:["대흉근(pectoralis major)","앞섬유 삼각근(anterior deltoid)","상완삼두근(triceps brachii)","능형근(rhomboids)"]},
+   en:{q:"Which muscle is given as a stabilizer, not an agonist, in push-ups?", opts:["Pectoralis major","Anterior deltoid","Triceps brachii","Rhomboids"]},
+   a:3, ex:"능형근은 밀기에서 안정화 근육(승모근, 능형근, 소흉근, 전거근)입니다. 주동근은 대흉근, 앞섬유 삼각근, 상완삼두근입니다."},
+  {id:"q241", part:"동작-근육 협응",
+   ko:{q:"견갑골 안정화에 승모근·능형근·전거근이 함께 제시된 동작 조합은?", opts:["뻗기(Reaching)만","들기(Lifting)와 밀기(push-ups)","던지기 가속 단계만","던지기 가속 단계와 뻗기"]},
+   en:{q:"Which pair of movements lists trapezius, rhomboids and serratus anterior together for scapular stabilization?", opts:["Reaching only","Lifting and push-ups","Acceleration phase of throwing only","Acceleration phase of throwing and reaching"]},
+   a:1, ex:"들기(기반안정화: 능형근·승모근·전거근)와 밀기(안정화: 승모근·능형근·소흉근·전거근)입니다."},
+  {id:"q242", part:"동작-근육 협응",
+   ko:{q:"다음 동작과 영어 표현의 연결이 옳은 것은?", opts:["들기 - Reaching","던지기 - Throwing","밀기 - Throwing","뻗기 - Lifting"]},
+   en:{q:"Which Korean–English pairing of movements is correct?", opts:["들기 - Reaching","던지기 - Throwing","밀기 - Throwing","뻗기 - Lifting"]},
+   a:1, ex:"뻗기=Reaching, 던지기=Throwing, 들기=Lifting, 밀기=push-ups입니다."},
 ];
 
 const PARTS = [...new Set(QUESTIONS.map(q=>q.part))];
+/* 파트(저장 단위)는 그대로 두고, 화면에서만 큰 범위로 묶어 보여준다 — 기존 기록에 영향 없음 */
+const GROUP_DEFS = [
+  {id:"bone",   name:"뼈대",   emoji:"🦴", parts:["뼈대-몸통뼈","뼈대-팔뼈","뼈대-다리뼈","어깨복합체"]},
+  {id:"muscle", name:"근육",   emoji:"💪", parts:["근육-종류·특성","근육 용어","어깨근육-견갑골","어깨근육-상완골","어깨근육-회전근개","어깨근육-위팔"]},
+  {id:"move",   name:"움직임", emoji:"🏃", parts:["자세·방향","면·축","관절 움직임","동작 응용","어깨위팔리듬","S.T.J 움직임","G.H.J 움직임","동작-근육 협응"]},
+];
+const GROUPS = (()=>{
+  const used = new Set(GROUP_DEFS.flatMap(g=>g.parts));
+  const left = PARTS.filter(p=>!used.has(p));
+  const gs = GROUP_DEFS.map(g=>({...g, parts:g.parts.filter(p=>PARTS.includes(p))}));
+  if(left.length) gs.push({id:"etc", name:"기타", emoji:"📚", parts:left}); // 새 파트를 추가하고 묶음 등록을 잊어도 목록에서 사라지지 않게 함
+  return gs;
+})();
+function groupQuestions(g){ return QUESTIONS.filter(q=>g.parts.includes(q.part)); }
 const LEVELS = [
   {id:"ko", label:"하", desc:"한글 질문 + 한글/영어 병기 선택지"},
   {id:"mid", label:"중", desc:"한글 질문 + 영어 전용 선택지"},
@@ -1354,20 +1452,31 @@ function renderHome(){
   const stats = partStats();
   const anyData = stats.some(s=>s.total>0);
 
-  const accHtml = `
-    <div class="section-title">파트별 정답률 · 난이도 '${lv.label}' 기준</div>
-    <div class="acc-card">
-      ${stats.map(s=>`
-        <div class="acc-row">
+  const rowHtml = (name, st, small)=>`
+        <div class="acc-row"${small?' style="margin-left:10px;"':''}>
           <div class="acc-head">
-            <span class="pname">${s.part}</span>
-            ${s.pct===null ? `<span class="pval none">기록 없음</span>` : `<span class="pval" style="color:${accColor(s.pct)}">${s.pct}%</span>`}
+            <span class="pname">${name}</span>
+            ${st.pct===null ? `<span class="pval none">기록 없음</span>` : `<span class="pval" style="color:${accColor(st.pct)}">${st.pct}%</span>`}
           </div>
-          <div class="acc-track"><div class="acc-fill" style="width:${s.pct===null?0:s.pct}%;background:${accColor(s.pct)}"></div></div>
-          ${s.total>0 ? `<div class="acc-sub">${s.total}회 풀이 · 정답 ${s.correct} / 오답 ${s.wrong}</div>` : ``}
-        </div>
+          <div class="acc-track"><div class="acc-fill" style="width:${st.pct===null?0:st.pct}%;background:${accColor(st.pct)}"></div></div>
+          ${st.total>0 ? `<div class="acc-sub">${st.total}회 풀이 · 정답 ${st.correct} / 오답 ${st.wrong}</div>` : ``}
+        </div>`;
+  const groupStat = g=>{
+    const ps = stats.filter(x=>g.parts.includes(x.part));
+    const c = ps.reduce((a,x)=>a+x.correct,0), w = ps.reduce((a,x)=>a+x.wrong,0), total=c+w;
+    return {correct:c, wrong:w, total, pct: total? Math.round(c/total*100):null};
+  };
+  const accHtml = `
+    <div class="section-title">범위별 정답률 · 난이도 '${lv.label}' 기준</div>
+    <div class="acc-card">
+      ${GROUPS.map(g=>`
+        ${rowHtml(g.emoji+" "+g.name, groupStat(g))}
+        <details style="margin:-2px 0 10px 0;">
+          <summary style="font-size:12px;color:var(--text-soft);cursor:pointer;">세부 파트 ${g.parts.length}개 보기</summary>
+          ${g.parts.map(p=>rowHtml(p, stats.find(x=>x.part===p), true)).join("")}
+        </details>
       `).join("")}
-      ${anyData ? "" : `<div class="acc-sub" style="margin-top:2px;">문제를 풀면 파트별 정답률이 여기에 쌓입니다.</div>`}
+      ${anyData ? "" : `<div class="acc-sub" style="margin-top:2px;">문제를 풀면 범위별 정답률이 여기에 쌓입니다.</div>`}
     </div>
   `;
 
@@ -1382,12 +1491,12 @@ function renderHome(){
     </div>
     <div class="menu-item" id="menuPart">
       <div class="ic blue">🗂️</div>
-      <div class="body"><h3>파트별 풀어보기</h3><p>${PARTS.length}개 파트 중 선택</p></div>
+      <div class="body"><h3>범위별 풀어보기</h3><p>뼈대 · 근육 · 움직임 중 선택 (세부 파트 선택 가능)</p></div>
       <div class="chev">›</div>
     </div>
     <div class="menu-item" id="menuExam">
       <div class="ic red">⏱️</div>
-      <div class="body"><h3>모의시험 보기</h3><p>랜덤 10문항 · 5분 · 60점 합격</p></div>
+      <div class="body"><h3>모의시험 보기</h3><p>랜덤 20문항 · 10분 · 60점 합격</p></div>
       <div class="chev">›</div>
     </div>
     <div class="menu-item" id="menuWrong">
@@ -1418,31 +1527,35 @@ function renderHome(){
 /* ================= 파트별 ================= */
 function renderPartSelect(){
   main.innerHTML = `
-    <div class="top-bar"><div class="back-btn" id="back">←</div><h2>파트별 풀어보기</h2></div>
-    <div class="section-title">파트 선택</div>
-    <div id="chipWrap"></div>
-    <button class="primary-btn" id="startPart" disabled>파트를 선택하세요</button>
+    <div class="top-bar"><div class="back-btn" id="back">←</div><h2>범위별 풀어보기</h2></div>
+    <div class="section-title">범위 선택</div>
+    <div id="groupWrap"></div>
   `;
   document.getElementById('back').onclick = ()=>{ currentTab="home"; render(); };
-  let selected = null;
-  const wrap = document.getElementById('chipWrap');
-  PARTS.forEach(p=>{
-    const chip = document.createElement('span');
-    chip.className = 'part-chip';
-    chip.textContent = `${p} (${QUESTIONS.filter(q=>q.part===p).length})`;
-    chip.onclick = ()=>{
-      wrap.querySelectorAll('.part-chip').forEach(c=>c.classList.remove('selected'));
-      chip.classList.add('selected');
-      selected = p;
-      const btn = document.getElementById('startPart');
-      btn.disabled = false; btn.textContent = `${p} 시작하기`;
-    };
-    wrap.appendChild(chip);
+  const wrap = document.getElementById('groupWrap');
+  GROUPS.forEach(g=>{
+    const qs = groupQuestions(g);
+    const card = document.createElement('div');
+    card.className = 'q-card';
+    card.style.marginBottom = '12px';
+    card.innerHTML = `
+      <div style="font-size:16px;font-weight:700;margin-bottom:4px;">${g.emoji} ${g.name} <span style="font-size:12.5px;font-weight:400;color:var(--text-soft);">${qs.length}문항 · 세부 파트 ${g.parts.length}개</span></div>
+      <button class="primary-btn" data-all="${g.id}" style="margin:8px 0 6px;">${g.name} 전체 풀기</button>
+      <details>
+        <summary style="font-size:13px;color:var(--text-soft);cursor:pointer;">세부 파트만 골라 풀기</summary>
+        <div class="chips" style="margin-top:8px;"></div>
+      </details>`;
+    const chipBox = card.querySelector('.chips');
+    g.parts.forEach(p=>{
+      const chip = document.createElement('span');
+      chip.className = 'part-chip';
+      chip.textContent = `${p} (${QUESTIONS.filter(q=>q.part===p).length})`;
+      chip.onclick = ()=> startQuiz(shuffle(QUESTIONS.filter(q=>q.part===p)), {title:p, mode:"practice"});
+      chipBox.appendChild(chip);
+    });
+    card.querySelector('[data-all]').onclick = ()=> startQuiz(shuffle(qs), {title:`${g.name} 전체`, mode:"practice"});
+    wrap.appendChild(card);
   });
-  document.getElementById('startPart').onclick = ()=>{
-    if(!selected) return;
-    startQuiz(shuffle(QUESTIONS.filter(q=>q.part===selected)), {title:selected, mode:"practice"});
-  };
 }
 
 /* ================= 모의고사 ================= */
@@ -1455,15 +1568,15 @@ function renderExamSetup(){
         틀린 문항은 자동으로 오답노트에 저장됩니다.
       </p>
       <div style="display:flex;gap:8px;font-size:13px;color:var(--text-soft);">
-        <span>📌 10문항</span><span>·</span><span>⏱️ 5분</span><span>·</span><span>✅ 60점 합격</span>
+        <span>📌 20문항</span><span>·</span><span>⏱️ 10분</span><span>·</span><span>✅ 60점 합격</span>
       </div>
     </div>
     <button class="primary-btn" id="startExam">모의시험 시작하기</button>
   `;
   document.getElementById('back').onclick = ()=>{ currentTab="home"; render(); };
   document.getElementById('startExam').onclick = ()=>{
-    const list = shuffle(QUESTIONS).slice(0, Math.min(10, QUESTIONS.length));
-    startQuiz(list, {title:"모의시험", mode:"exam", timeLimit:300});
+    const list = shuffle(QUESTIONS).slice(0, Math.min(20, QUESTIONS.length));
+    startQuiz(list, {title:"모의시험", mode:"exam", timeLimit:600});
   };
 }
 
